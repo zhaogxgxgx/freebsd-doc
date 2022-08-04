@@ -149,7 +149,7 @@ ifconfig_fxp0="inet 10.1.1.1/8"
 
 通常，当一个 port 或者 package 被安装的时候， 配置文件示例也同样被安装了。它们通常用 [.filename]#.default# 的后缀来标识。如果不存在这个应用程序的配置文件， 它们会通过复制 [.filename]#.default# 文件来创建。
 
-例如，看一下这个目下的内容 [.filename]#/usr/local/etc/apache#：
+例如，看一下这个目录下的内容 [.filename]#/usr/local/etc/apache#：
 
 ....
 -rw-r--r--  1 root  wheel   2184 May 20  1998 access.conf
